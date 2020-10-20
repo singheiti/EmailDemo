@@ -1,9 +1,7 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import AllMails from "./AllMails";
 import SelectedMail from "./SelectedMail";
 import MailHeader from "./MailHeader";
-import inboxData from "../../Data/inbox";
-import spamData from "../../Data/spam";
 import Loader from "./../Loader";
 
 const MailArea = (props) => {

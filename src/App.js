@@ -20,6 +20,7 @@ const App = () => {
   const [selectedMail, updateSelectedMail] = useState({});
 
   useEffect(() => {
+    updateSelectedMail({});
       if(showOutbox) {
           updateData(outboxData);
       }

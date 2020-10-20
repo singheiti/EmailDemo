@@ -3,13 +3,14 @@ import React from "react";
 const SelectedMail = (props) => {
     return (
         <div>
-            {props.data != {} ? (
+            {props.data !== {} ? (
                 <div>
                     <h1>{props.data.subject}</h1>
-                    <br />
+                    <hr />
                    <p>{props.data.content}</p>
                 </div>
-            ) : null}
+            ) : (null
+            )}
         </div>
     )
 }

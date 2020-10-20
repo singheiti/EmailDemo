@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
-
-const AllMails = (props) => {
-    
+const AllMails = (props) => {    
     return (
         <div>
             {props.data && props.data.length > 0 ? props.data.map(item => {
